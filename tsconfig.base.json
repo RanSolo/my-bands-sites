@@ -1,6 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
@@ -14,7 +16,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@config": ["apps/white-label-frontend/src/white-label-config.ts"],
+      "@my-bands-sites/shared-types": ["libs/shared-types/src/index.ts"],
+      "@my-bands-sites/ssr/config": ["libs/ssr/config/src/index.ts"],
+      "@my-bands-sites/ssr/config/server": ["libs/ssr/config/src/server.ts"],
+      "@my-bands-sites/white-label-config": [
+        "libs/white-label-config/src/index.ts"
+      ],
+      "@my-bands-sites/white-label-config/server": [
+        "libs/white-label-config/src/server.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "white-label-frontend-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/white-label-frontend-e2e/src",
+  "targets": {},
+  "tags": [],
+  "implicitDependencies": ["white-label-frontend"]
+}
