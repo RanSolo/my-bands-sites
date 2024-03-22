@@ -2,7 +2,12 @@
   "name": "@my-bands-sites/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "ng": "nx",
+    "start": "nx serve api && nx serve white-label-frontend",
+    "build": "nx run-many --target=build --all --parallel",
+    "test": "nx run-many --target=test --all --parallel"
+  },
   "private": true,
   "dependencies": {
     "@tanstack/react-query": "^5.24.1",

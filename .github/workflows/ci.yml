@@ -1,10 +1,12 @@
 name: CI
 
+env: 
+  NODE_OPTIONS: --max_old_space_size=4096
 on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request: {}
 
 permissions:
   actions: read

@@ -18,7 +18,6 @@ export function Index({ myBand }: Props) {
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
-  const media = myBand.media;
 
   useEffect(() => {
     const tag = document.getElementById('bio') as HTMLElement;
@@ -47,7 +46,7 @@ export function Index({ myBand }: Props) {
 
           </div>
 <div className="featuredEmbed-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kcdlS2WilNc?si=7AbdmLmzcX2gc17m" title="feature-embed" frameBorder="0"  allowFullScreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kcdlS2WilNc?si=7AbdmLmzcX2gc17m" title="feature-embed" frameBorder="0"  allowFullScreen />
   </div>
           <div id="hero" className="rounded">
             <div className="text-container">
@@ -68,7 +67,7 @@ export function Index({ myBand }: Props) {
               <a
                 href="https://nx.dev/getting-started/intro?utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="list-item-link"
               >
                 <svg
@@ -105,7 +104,7 @@ export function Index({ myBand }: Props) {
               <a
                 href="https://blog.nrwl.io/?utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="list-item-link"
               >
                 <svg
@@ -142,7 +141,7 @@ export function Index({ myBand }: Props) {
               <a
                 href="https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project&sub_confirmation=1"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="list-item-link"
               >
                 <svg
@@ -175,7 +174,7 @@ export function Index({ myBand }: Props) {
               <a
                 href="https://nx.dev/react-tutorial/1-code-generation?utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="list-item-link"
               >
                 <svg
@@ -212,7 +211,7 @@ export function Index({ myBand }: Props) {
               <a
                 href="https://nxplaybook.com/?utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="list-item-link"
               >
                 <svg
@@ -255,7 +254,7 @@ export function Index({ myBand }: Props) {
                 className="button-pill rounded shadow"
                 href="https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 <svg
                   fill="currentColor"
@@ -276,7 +275,7 @@ export function Index({ myBand }: Props) {
                 className="button-pill rounded shadow"
                 href="https://plugins.jetbrains.com/plugin/21060-nx-console"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 <svg
                   height="48"
@@ -337,7 +336,7 @@ export function Index({ myBand }: Props) {
                 <a
                   href="https://nx.app/?utm_source=nx-project"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer noopener"
                 >
                   {' '}
                   What is Nx Cloud?{' '}
@@ -348,7 +347,7 @@ export function Index({ myBand }: Props) {
                 className="button-pill rounded shadow"
                 href="https://github.com/nrwl/nx?utm_source=nx-project"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 <svg
                   fill="currentColor"
