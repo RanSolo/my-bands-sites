@@ -6,7 +6,8 @@
     "ng": "nx",
     "start": "nx serve api && nx serve white-label-frontend",
     "build": "nx run-many --target=build --all --parallel",
-    "test": "nx run-many --target=test --all --parallel"
+    "test": "nx run-many --target=test --all --parallel",
+    "start:app": "nx serve api && nx serve white-label-frontend"
   },
   "private": true,
   "dependencies": {
