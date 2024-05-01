@@ -1,10 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "@vercel/remote-nx",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "token": "mZAQbR0Evs2cj7r734oGkaQh",
+        "teamId": "team_dYg2ie4xm1JF49UY5msI5ga3"
       }
     }
   },
