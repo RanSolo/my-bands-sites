@@ -3,6 +3,15 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/white-label-frontend",
   "projectType": "application",
-  "targets": {},
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/acme"
+      }
+    }
+  },
   "tags": ["frontend"]
 }
