@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/white-label-frontend"
+        "outputPath": "dist/white-label-frontend"
       }
     }
   },
