@@ -4,9 +4,7 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "@vercel/remote-nx",
-      
       "options": {
-        "outputPath": "dist/apps/white-label-frontend",
         "cacheableOperations": ["build", "test", "lint", "e2e"],
         "token": "mZAQbR0Evs2cj7r734oGkaQh",
         "teamId": "team_dYg2ie4xm1JF49UY5msI5ga3"
