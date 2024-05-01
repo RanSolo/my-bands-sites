@@ -6,8 +6,18 @@
   "targets": {
     "build": {
       "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
-    }
+      "options": {
+        "outputPath": "dist/apps/white-label-frontend"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "."
+        },
+        "production": {}
+      }
+    },
   },
   "tags": ["frontend"]
 }
