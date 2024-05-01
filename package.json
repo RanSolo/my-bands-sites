@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "npx nx",
     "start": "npx nx serve api && nx serve white-label-frontend",
-    "build": "npx nx build white-label-frontend",
+    "build": "npx nx build white-label-frontend --production",
     "test": "npx nx run-many --target=test --all --parallel",
     "start:app": "npx nx serve api && nx serve white-label-frontend"
   },
